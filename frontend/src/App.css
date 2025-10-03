@@ -1,0 +1,73 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  background-color: #f0f2f5;
+  color: #1c1e21;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+h1 { color: #075e54; }
+
+.status { padding: 5px 10px; border-radius: 5px; color: #fff; display: inline-block; }
+.status-bağlandı { background-color: #25d366; }
+.status-bağlanılıyor, .status-başlatılıyor, .status-qr { background-color: #f1c40f; }
+.status-bağlantı { background-color: #e74c3c; }
+
+.qr-container { text-align: center; }
+.qr-container img { border: 5px solid #ddd; border-radius: 8px; }
+
+.main-content { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; }
+
+.send-form, .messages-container { display: flex; flex-direction: column; }
+
+input, textarea, button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+}
+
+textarea { resize: vertical; min-height: 80px; }
+
+button {
+  background-color: #128c7e;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+button:hover { background-color: #075e54; }
+
+.message-list {
+  max-height: 400px;
+  overflow-y: auto;
+  border: 1px solid #eee;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.message {
+  background-color: #e5ddd5;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+.message .from { font-size: 0.8em; color: #333; margin: 0 0 5px 0; }
+.message .body { margin: 0; }

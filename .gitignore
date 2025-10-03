@@ -1,0 +1,30 @@
+# Bu dosya, Git'in hangi dosyaları ve klasörleri takip etmemesi gerektiğini söyler.
+
+# Genel Bağımlılıklar
+# Projenin üç yerindeki node_modules klasörlerini de yok sayar.
+**/node_modules
+
+# WhatsApp Web JS Oturum Dosyaları
+# Bu klasör, QR kodunu tarattıktan sonra oluşan oturum bilgilerini tutar.
+# Kesinlikle GitHub'a yüklenmemelidir, güvenlik açığı oluşturur.
+/backend/.wwebjs_auth/
+
+# Log Dosyaları
+*.log
+npm-debug.log*
+
+# İşletim Sistemi Dosyaları
+.DS_Store
+Thumbs.db
+
+# Frontend (Vite) Build Çıktıları
+/frontend/dist
+/frontend/.vite
+
+# Ortam Değişkenleri Dosyası (Eğer ileride eklersen)
+.env
+.env.*
+
+# IDE / Editör Dosyaları
+# JetBrains IDE'leri (WebStorm, IntelliJ vb.) için ayar klasörü
+.idea/
