@@ -38,7 +38,7 @@ Projeyi yerel makinenizde kurmak ve çalıştırmak için aşağıdaki adımlar�
 **1. Projeyi Klonlayın:**
 
 ```bash
-git clone [https://github.com/KULLANICI-ADIN/whatsapp-test-app.git](https://github.com/KULLANICI-ADIN/whatsapp-test-app.git)
+git clone [https://github.com/progesor/whatsapp-test-app.git](https://github.com/progesor/whatsapp-test-app.git)
 cd whatsapp-test-app
 ```
 
