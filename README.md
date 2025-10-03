@@ -38,7 +38,7 @@ Projeyi yerel makinenizde kurmak ve çalıştırmak için aşağıdaki adımlar�
 **1. Projeyi Klonlayın:**
 
 ```bash
-git clone [https://github.com/KULLANICI-ADIN/whatsapp-test-app.git](https://github.com/KULLANICI-ADIN/whatsapp-test-app.git)
+git clone https://github.com/progesor/whatsapp-test-app.git
 cd whatsapp-test-app
 ```
 
@@ -47,7 +47,7 @@ cd whatsapp-test-app
 Projenin ana dizinindeyken aşağıdaki komutu çalıştırın. Bu komut hem ana proje, hem `backend` hem de `frontend` için gerekli tüm paketleri tek seferde kuracaktır.
 
 ```bash
-npm install
+npm install all
 ```
 
 **3. Geliştirme Sunucularını Başlatın:**
