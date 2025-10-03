@@ -47,7 +47,7 @@ cd whatsapp-test-app
 Projenin ana dizinindeyken aşağıdaki komutu çalıştırın. Bu komut hem ana proje, hem `backend` hem de `frontend` için gerekli tüm paketleri tek seferde kuracaktır.
 
 ```bash
-npm install
+npm install all
 ```
 
 **3. Geliştirme Sunucularını Başlatın:**
